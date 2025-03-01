@@ -1,0 +1,1 @@
+import{h as p}from"./framework.C88uWV_J.js";const i=(n,e)=>{const t=n.split("/").filter(Boolean);return t.pop(),t.push(`${e}.html`),t.join("/")},l=(n,e)=>p(()=>{const t=n.findIndex(d=>d.id===e),r=0,s=n.length-1,o=t===0?0:t-1,c=t===s?s:t+1;return{first:r,last:s,current:t,prev:o,next:c}});export{i as g,l as u};
