@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, watch } from "vue"
 import { useData, useRouter } from 'vitepress'
-import { ElButton, ElButtonGroup, ElSpace, ElImage, ElText, ElRow, ElCol, ElAffix, ElSwitch, ElIcon } from 'element-plus'
+import { ElButton, ElButtonGroup, ElSpace, ElImage, ElAffix, ElSwitch, ElIcon } from 'element-plus'
 import { StarFilled, Star } from '@element-plus/icons-vue'
 
 import { getOtherPkgPath, getArrayRandomItem, safeJsonParse } from "@utils"

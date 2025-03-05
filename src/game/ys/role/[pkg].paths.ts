@@ -1,4 +1,4 @@
-import roleList from '../../../../data/ys/role/server.json' with { type: "json" };
+import roleList from '../../../../data/ys/role/all.json' with { type: "json" };
 
 export default {
   async paths() {

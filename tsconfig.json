@@ -9,7 +9,7 @@
         "server/*"
       ],
       "@utils/*": [
-        "utils/*"
+        "./utils/*"
       ],
       "@data/*": [
         "data/*"

@@ -10,7 +10,8 @@ const __dirname = path.dirname(__filename);
 
 export const getData = async () => {
   const roleList = await getRoleList()
-  saveFileByNode(path.resolve(__dirname, '../../data/zzz/role/server.json'), JSON.stringify(roleList))
+  saveFileByNode(path.resolve(__dirname, '../../data/zzz/role/all.json'), JSON.stringify(roleList))
+  saveFileByNode(path.resolve(__dirname, '../../data/zzz/role/idList.json'), JSON.stringify(roleList.map(item => item.id)))
 }
 
 getData()

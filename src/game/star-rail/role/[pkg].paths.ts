@@ -1,4 +1,4 @@
-import roleList from '../../../../data/starRail/role/server.json' with { type: "json" };
+import roleList from '../../../../data/starRail/role/all.json' with { type: "json" };
 
 export default {
   async paths() {
