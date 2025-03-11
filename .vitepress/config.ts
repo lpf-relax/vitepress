@@ -42,6 +42,7 @@ export default withPwa(
         { text: "Home", link: "/" },
         { text: "Examples", link: "/markdown-examples" },
         { text: "game", link: "/game" },
+        { text: "健身", link: "/fitness" },
       ],
 
       sidebar: {
@@ -81,6 +82,44 @@ export default withPwa(
             ]
           },
         ],
+        "/fitness/": [
+          {
+            text: '日期',
+            link: '/fitness/date/one'
+          },
+          {
+            text: '动作',
+            link: '/fitness/action'
+          },
+        ],
+        "/fitness/date/": [
+          {
+            text: '日期',
+            items: [
+              { text: '星期一', link: '/fitness/date/one' },
+              { text: '星期二', link: '/fitness/date/two' },
+              { text: '星期三', link: '/fitness/date/three' },
+              { text: '星期四', link: '/fitness/date/four' },
+              { text: '星期五', link: '/fitness/date/five' },
+              { text: '星期六', link: '/fitness/date/six' },
+              { text: '星期日', link: '/fitness/date/seven' },
+            ]
+          }
+        ],
+        "/fitness/action/": [
+          {
+            text: '动作',
+            items: [
+              { text: '星期一', link: '/fitness/date/one' },
+              { text: '星期二', link: '/fitness/date/two' },
+              { text: '星期三', link: '/fitness/date/three' },
+              { text: '星期四', link: '/fitness/date/four' },
+              { text: '星期五', link: '/fitness/date/five' },
+              { text: '星期六', link: '/fitness/date/six' },
+              { text: '星期日', link: '/fitness/date/seven' },
+            ]
+          }
+        ]
       },
 
       socialLinks: [
