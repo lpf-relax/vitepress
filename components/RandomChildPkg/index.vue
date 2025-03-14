@@ -1,6 +1,7 @@
 <script setup>
 import { ref, defineProps } from "vue";
 import { useRouter } from 'vitepress'
+import { ElButton, ElSpace } from 'element-plus'
 import { getArrayRandomItem, getChildPkgPath } from "@utils"
 
 const props = defineProps(['idList'])

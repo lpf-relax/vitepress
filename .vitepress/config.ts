@@ -48,39 +48,44 @@ export default withPwa(
       sidebar: {
         "/game/": [
           {
-            text: "原神",
-            link: '/game/ys.html',
+            text: '临时',
             items: [
               {
-                text: '角色',
-                link: '/game/ys/role'
+                text: "原神",
+                link: '/game/ys.html',
+                items: [
+                  {
+                    text: '角色',
+                    link: '/game/ys/temp/role'
+                  },
+                  {
+                    text: '信息',
+                    link: '/game/ys/temp/info'
+                  }
+                ]
               },
               {
-                text: '信息',
-                link: '/game/ys/info'
-              }
-            ]
-          },
-          {
-            text: "绝区零",
-            link: '/game/zzz.html',
-            items: [
+                text: "绝区零",
+                link: '/game/zzz.html',
+                items: [
+                  {
+                    text: '角色',
+                    link: '/game/zzz/temp/role'
+                  }
+                ]
+              },
               {
-                text: '角色',
-                link: '/game/zzz/role'
-              }
+                text: "星穹铁道",
+                link: '/game/star-rail.html',
+                items: [
+                  {
+                    text: '角色',
+                    link: '/game/star-rail/temp/role'
+                  }
+                ]
+              },
             ]
-          },
-          {
-            text: "星穹铁道",
-            link: '/game/star-rail.html',
-            items: [
-              {
-                text: '角色',
-                link: '/game/star-rail/role'
-              }
-            ]
-          },
+          }
         ],
         "/fitness/": [
           {
@@ -110,13 +115,16 @@ export default withPwa(
           {
             text: '动作',
             items: [
-              { text: '星期一', link: '/fitness/date/one' },
-              { text: '星期二', link: '/fitness/date/two' },
-              { text: '星期三', link: '/fitness/date/three' },
-              { text: '星期四', link: '/fitness/date/four' },
-              { text: '星期五', link: '/fitness/date/five' },
-              { text: '星期六', link: '/fitness/date/six' },
-              { text: '星期日', link: '/fitness/date/seven' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
+              { text: '深蹲', link: '/fitness/action/深蹲' },
             ]
           }
         ]
